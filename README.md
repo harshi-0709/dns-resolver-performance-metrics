@@ -23,7 +23,7 @@ DOI: https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.2435
 python -m venv venv
 venv\Scripts\activate          # Windows
 pip install "dnspython[doh]" pandas numpy scipy matplotlib jupyter
-python [collector script name].py
+python doh.py
 jupyter notebook analysis.ipynb
 ```
 
